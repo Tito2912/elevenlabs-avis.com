@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .bg {{ fill: #050508; }}
+    </style>
+  </defs>
+  <rect class="bg" width="64" height="64" rx="12"/>
+  <image href="android-chrome-192x192.png" x="0" y="0" height="64" width="64" preserveAspectRatio="xMidYMid slice" />
+</svg>

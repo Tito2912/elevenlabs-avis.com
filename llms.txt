@@ -1,0 +1,33 @@
+# llms.txt
+
+## Portails principaux
+- https://elevenlabs-avis.com/
+Présentation en français des tests ElevenLabs, plans tarifaires, cas d’usage et intégrations recommandées.
+- https://elevenlabs-avis.com/en/
+English overview regrouping feature breakdowns, compliance reminders, and onboarding resources.
+
+## Guides & tutoriels
+- https://elevenlabs-avis.com/blog
+Sommaire des tutoriels français avec liens vers presets, workflows d’automatisation et checklists audio.
+- https://elevenlabs-avis.com/en/blog
+English blog index highlighting weekly automation tips, QA checklists, and deployment playbooks.
+- https://elevenlabs-avis.com/blog-1
+Guide détaillé pour créer une voix IA ElevenLabs en moins de cinq minutes (pas-à-pas FR).
+- https://elevenlabs-avis.com/en/blog-1
+Complete English walkthrough for configuring models, tuning tone, and exporting broadcast-ready voices.
+
+## Conformité & cadre légal
+- https://elevenlabs-avis.com/mentions-legales
+Mentions légales françaises : éditeur, hébergeur OVH, responsabilités éditoriales et coordonnées.
+- https://elevenlabs-avis.com/en/legal-notice
+Legal notice in English covering publisher identity, hosting details, and editorial liability.
+- https://elevenlabs-avis.com/politique-de-confidentialite
+Politique RGPD : collecte des données, durée de conservation, consentement et droits utilisateurs.
+- https://elevenlabs-avis.com/en/privacy-policy
+Privacy policy describing data usage, consent preferences, and user rights for the English audience.
+
+## Cartes techniques
+- https://elevenlabs-avis.com/robots.txt
+Règles d’exploration pour les bots de recherche et extensions IA.
+- https://elevenlabs-avis.com/sitemap.xml
+Structure XML listant toutes les URLs canoniques FR/EN avec balises hreflang réciproques.

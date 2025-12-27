@@ -1,0 +1,170 @@
+[build]
+  publish = "."
+  command = "python3 scripts/ping_indexnow.py"
+
+# Global headers (FR par défaut)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    # CSP en une seule ligne pour éviter les erreurs TOML
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; upgrade-insecure-requests; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; frame-src https://www.youtube.com"
+    Content-Language = "fr"
+
+# Langue anglaise pour /en/*
+[[headers]]
+  for = "/en/*"
+  [headers.values]
+    Content-Language = "en"
+
+# Cache raisonnable pour les assets (adapté à un site statique Netlify)
+[[headers]]
+  for = "/CSS/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/Images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/scripts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Normalise www requests without extra redirects so audits see a 200 response
+[[redirects]]
+  from = "https://www.elevenlabs-avis.com/*"
+  to = "/:splat"
+  status = 200
+  force = true
+
+# Règles pour exposer des URLs sans .html tout en gardant les fichiers d'origine accessibles
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/index.html"
+  to = "/en/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog.html"
+  to = "/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-1.html"
+  to = "/blog-1"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog-1"
+  to = "/blog-1.html"
+  status = 200
+
+[[redirects]]
+  from = "/mentions-legales.html"
+  to = "/mentions-legales"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mentions-legales"
+  to = "/mentions-legales.html"
+  status = 200
+
+[[redirects]]
+  from = "/politique-de-confidentialite.html"
+  to = "/politique-de-confidentialite"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/politique-de-confidentialite"
+  to = "/politique-de-confidentialite.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/blog.html"
+  to = "/en/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog"
+  to = "/en/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/blog-1.html"
+  to = "/en/blog-1"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog-1"
+  to = "/en/blog-1.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/legal-notice.html"
+  to = "/en/legal-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/legal-notice"
+  to = "/en/legal-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/privacy-policy.html"
+  to = "/en/privacy-policy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/privacy-policy"
+  to = "/en/privacy-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/CSS/*"
+  to = "/CSS/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/Images/*"
+  to = "/Images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200

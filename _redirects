@@ -1,0 +1,40 @@
+# --- Domaine www sans redirection ---
+https://www.elevenlabs-avis.com/*   https://elevenlabs-avis.com/:splat   301!
+
+# --- Langue EN propre ---
+/index.html                   /               301!
+/en/index.html                /en/            301!
+/blog.html                    /blog           301!
+/blog                         /blog.html      200
+/blog-1.html                  /blog-1         301!
+/blog-1                       /blog-1.html    200
+/mentions-legales.html        /mentions-legales 301!
+/mentions-legales             /mentions-legales.html 200
+/politique-de-confidentialite.html /politique-de-confidentialite 301!
+/politique-de-confidentialite /politique-de-confidentialite.html 200
+/en/blog.html                 /en/blog        301!
+/en/blog                      /en/blog.html   200
+/en/blog-1.html               /en/blog-1      301!
+/en/blog-1                    /en/blog-1.html   200
+/blog-2.html                  /blog-2         301!
+/blog-2                       /blog-2.html    200
+/en/blog-2.html               /en/blog-2      301!
+/en/blog-2                    /en/blog-2.html   200
+/blog-3.html                  /blog-3         301!
+/blog-3                       /blog-3.html    200
+/en/blog-3.html               /en/blog-3      301!
+/en/blog-3                    /en/blog-3.html   200
+/en/legal-notice.html         /en/legal-notice 301!
+/en/legal-notice              /en/legal-notice.html 200
+/en/privacy-policy.html       /en/privacy-policy 301!
+/en/privacy-policy            /en/privacy-policy.html 200
+/en/*    /en/:splat 200
+
+# --- IMPORTANT : ne jamais réécrire les assets --- 
+/CSS/*      /CSS/:splat      200
+/Images/*   /Images/:splat   200
+/assets/*   /assets/:splat   200
+
+# --- (Facultatif) redirections anciennes pages --- 
+# /old-blog        /blog.html   301
+# /vieille-page    /            301

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://elevenlabs-avis.com/</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/en/</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/blog</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/en/blog</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/blog-1</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-1"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/en/blog-1</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-1"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/mentions-legales</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/legal-notice"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/en/legal-notice</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/legal-notice"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/politique-de-confidentialite</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/privacy-policy"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/en/privacy-policy</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/privacy-policy"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/blog-2</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-2"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/en/blog-2</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-2"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/blog-3</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-3"/>
+  </url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/en/blog-3</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-3"/>
+  </url>
+
+</urlset>
