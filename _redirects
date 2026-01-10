@@ -1,4 +1,6 @@
 # --- Domaine www sans redirection ---
+http://www.elevenlabs-avis.com/*    https://elevenlabs-avis.com/:splat   301!
+http://elevenlabs-avis.com/*        https://elevenlabs-avis.com/:splat   301!
 https://www.elevenlabs-avis.com/*   https://elevenlabs-avis.com/:splat   301!
 
 # --- Langue EN propre ---

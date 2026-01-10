@@ -41,11 +41,23 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Normalise www requests without extra redirects so audits see a 200 response
+# Canonicalise toutes les variantes http(s)/www vers HTTPS apex
+[[redirects]]
+  from = "http://www.elevenlabs-avis.com/*"
+  to = "https://elevenlabs-avis.com/:splat"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "https://www.elevenlabs-avis.com/*"
-  to = "/:splat"
-  status = 200
+  to = "https://elevenlabs-avis.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://elevenlabs-avis.com/*"
+  to = "https://elevenlabs-avis.com/:splat"
+  status = 301
   force = true
 
 # Règles pour exposer des URLs sans .html tout en gardant les fichiers d'origine accessibles

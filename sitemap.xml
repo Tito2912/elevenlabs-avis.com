@@ -19,6 +19,7 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/"/>
   </url>
 
   <url>
@@ -28,6 +29,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/blog"/>
   </url>
 
   <url>
@@ -37,6 +39,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/blog"/>
   </url>
 
   <url>
@@ -46,6 +49,7 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-1"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/blog-1"/>
   </url>
 
   <url>
@@ -55,6 +59,7 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-1"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/blog-1"/>
   </url>
 
   <url>
@@ -64,6 +69,7 @@
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/legal-notice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/mentions-legales"/>
   </url>
 
   <url>
@@ -73,6 +79,7 @@
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/legal-notice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/mentions-legales"/>
   </url>
 
   <url>
@@ -82,6 +89,7 @@
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/politique-de-confidentialite"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/politique-de-confidentialite"/>
   </url>
 
   <url>
@@ -91,6 +99,7 @@
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/politique-de-confidentialite"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/politique-de-confidentialite"/>
   </url>
 
   <url>
@@ -100,6 +109,7 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-2"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/blog-2"/>
   </url>
 
   <url>
@@ -109,6 +119,7 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-2"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/blog-2"/>
   </url>
 
   <url>
@@ -118,6 +129,7 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-3"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/blog-3"/>
   </url>
 
   <url>
@@ -127,6 +139,7 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/blog-3"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/blog-3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/blog-3"/>
   </url>
 
 </urlset>
