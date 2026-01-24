@@ -1,5 +1,6 @@
 (function(){
   const GA_ID = 'G-GBJ40NV4T2';
+  const ADSENSE_CLIENT = 'ca-pub-9370284647469776';
   const CONSENT_COOKIE = 'cookie_consent';
   const CONSENT_MAX_AGE_DAYS = 365;
   const CONSENT_VALUES = {
@@ -16,6 +17,7 @@
 
   let analyticsLoaded = false;
   let consentUpgraded = false;
+  let adsenseLoaded = false;
 
   function injectAnalytics(){
     if (analyticsLoaded) { return; }
@@ -30,12 +32,51 @@
     document.head.appendChild(script);
   }
 
+  function injectAdsense(){
+    if (adsenseLoaded) { return; }
+    if (!document.querySelector('ins.adsbygoogle')) { return; }
+    adsenseLoaded = true;
+
+    window.adsbygoogle = window.adsbygoogle || [];
+
+    const script = document.createElement('script');
+    script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`;
+    script.async = true;
+    script.crossOrigin = 'anonymous';
+    document.head.appendChild(script);
+  }
+
+  function initAdsenseSlots(){
+    const slots = Array.from(document.querySelectorAll('ins.adsbygoogle'));
+    if (!slots.length) { return; }
+
+    const validSlots = slots.filter(function(slot){
+      const slotId = slot.getAttribute('data-ad-slot') || '';
+      return /^[0-9]+$/.test(slotId);
+    });
+
+    if (!validSlots.length) { return; }
+
+    document.documentElement.classList.add('ads-enabled');
+    injectAdsense();
+
+    validSlots.forEach(function(slot){
+      if (slot.getAttribute('data-adsbygoogle-status')) { return; }
+      try {
+        window.adsbygoogle.push({});
+      } catch (err) {
+        /* Ads may be blocked */
+      }
+    });
+  }
+
   function enableAnalytics(){
     if (!consentUpgraded) {
       window.gtag('consent', 'update', CONSENT_VALUES);
       consentUpgraded = true;
     }
     injectAnalytics();
+    initAdsenseSlots();
   }
 
   function setCookie(name, value, days){

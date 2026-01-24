@@ -871,6 +871,33 @@ article blockquote::before {
   font-family: serif;
 }
 
+/* Encarts publicitaires (AdSense) */
+.ad-slot {
+  display: none;
+  margin: 2.25rem 0;
+  padding: 1rem;
+  border: 1px solid var(--gray-light);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: center;
+}
+
+.ads-enabled .ad-slot {
+  display: block;
+}
+
+.ad-slot__label {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin: 0 0 0.75rem;
+}
+
+.ad-slot ins.adsbygoogle {
+  display: block;
+}
+
 /* Styles améliorés pour les pages légales */
 .legal-container {
   max-width: 900px;
