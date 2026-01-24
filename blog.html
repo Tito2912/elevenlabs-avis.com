@@ -115,26 +115,33 @@
 </head>
 <body>
 
-  <header>
-    <a href="/" class="logo-link" style="display:flex; align-items:center; gap:20px;">
-      <img src="Images/logo-elevenlabs.png"
-           alt="Logo ElevenLabs Avis"
-           width="600"
-           height="120"
-           loading="eager" fetchpriority="high"
-           decoding="async"
-           style="object-fit:contain; display:block; height:48px; width:auto;">
-    </a>
-    <nav aria-label="Navigation principale">
-      <a href="/">Accueil</a>
-      <a href="/blog" aria-current="page">Blog</a>
-      <a href="/mentions-legales">Mentions légales</a>
-      <a href="/politique-de-confidentialite">Confidentialité</a>
-      <div class="language-switcher">
-        <a href="/en/blog" hreflang="en" lang="en" aria-label="Basculer vers la version anglaise">EN</a>
-      </div>
-    </nav>
-  </header>
+	  <header>
+	    <a href="/" class="logo-link" style="display:flex; align-items:center; gap:20px;">
+	      <img src="Images/logo-elevenlabs.png"
+	           alt="Logo ElevenLabs Avis"
+	           width="600"
+	           height="120"
+	           loading="eager" fetchpriority="high"
+	           decoding="async"
+	           style="object-fit:contain; display:block; height:48px; width:auto;">
+	    </a>
+	    <div class="header-right">
+	      <nav id="site-nav" aria-label="Navigation principale">
+	        <a href="/">Accueil</a>
+	        <a href="/blog" aria-current="page">Blog</a>
+	        <a href="/mentions-legales">Mentions légales</a>
+	        <a href="/politique-de-confidentialite">Confidentialité</a>
+	      </nav>
+	      <div class="language-switcher">
+	        <a href="/en/blog" hreflang="en" lang="en" aria-label="Basculer vers la version anglaise">EN</a>
+	      </div>
+	      <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
+	        <span class="menu-toggle__bar"></span>
+	        <span class="menu-toggle__bar"></span>
+	        <span class="menu-toggle__bar"></span>
+	      </button>
+	    </div>
+	  </header>
 
   <main class="container">
     <h1>Le blog ElevenLabs Avis</h1>
