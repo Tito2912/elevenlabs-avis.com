@@ -45,7 +45,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 5%;
+  padding: 0.75rem 5%;
   background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -55,7 +55,7 @@ header {
 }
 
 header.scrolled {
-  padding: 1rem 5%;
+  padding: 0.5rem 5%;
   box-shadow: var(--shadow-md);
 }
 
@@ -78,7 +78,7 @@ nav a {
   color: var(--dark);
   font-weight: 500;
   text-decoration: none;
-  padding: 0.75rem 1.25rem;
+  padding: 0.5rem 1rem;
   border-radius: 2rem;
   transition: var(--transition);
 }
