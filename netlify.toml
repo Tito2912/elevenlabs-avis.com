@@ -20,6 +20,18 @@
   [headers.values]
     Content-Language = "en"
 
+# Langue espagnole pour /es/*
+[[headers]]
+  for = "/es/*"
+  [headers.values]
+    Content-Language = "es"
+
+# Langue allemande pour /de/*
+[[headers]]
+  for = "/de/*"
+  [headers.values]
+    Content-Language = "de"
+
 # Cache raisonnable pour les assets (adapté à un site statique Netlify)
 [[headers]]
   for = "/CSS/*"
@@ -70,6 +82,18 @@
 [[redirects]]
   from = "/en/index.html"
   to = "/en/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/index.html"
+  to = "/es/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/index.html"
+  to = "/de/"
   status = 301
   force = true
 
@@ -159,6 +183,138 @@
 [[redirects]]
   from = "/en/privacy-policy"
   to = "/en/privacy-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/blog.html"
+  to = "/es/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/blog"
+  to = "/es/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/blog-1.html"
+  to = "/es/blog-1"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/blog-1"
+  to = "/es/blog-1.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/blog-2.html"
+  to = "/es/blog-2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/blog-2"
+  to = "/es/blog-2.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/blog-3.html"
+  to = "/es/blog-3"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/blog-3"
+  to = "/es/blog-3.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/legal-notice.html"
+  to = "/es/legal-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/legal-notice"
+  to = "/es/legal-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/privacy-policy.html"
+  to = "/es/privacy-policy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/privacy-policy"
+  to = "/es/privacy-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/blog.html"
+  to = "/de/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/blog"
+  to = "/de/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/blog-1.html"
+  to = "/de/blog-1"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/blog-1"
+  to = "/de/blog-1.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/blog-2.html"
+  to = "/de/blog-2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/blog-2"
+  to = "/de/blog-2.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/blog-3.html"
+  to = "/de/blog-3"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/blog-3"
+  to = "/de/blog-3.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/legal-notice.html"
+  to = "/de/legal-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/legal-notice"
+  to = "/de/legal-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/privacy-policy.html"
+  to = "/de/privacy-policy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/privacy-policy"
+  to = "/de/privacy-policy.html"
   status = 200
 
 [[redirects]]

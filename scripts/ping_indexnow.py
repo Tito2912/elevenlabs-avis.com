@@ -18,7 +18,10 @@ HOST = "elevenlabs-avis.com"
 INDEXNOW_ENDPOINT = "https://www.bing.com/indexnow"
 KEY = "86d6de34443f43b0b86d521ae8e4d4f9"
 KEY_LOCATION = f"https://{HOST}/{KEY}.txt"
-SITEMAP_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+SITEMAP_NS = {
+    "sm": "http://www.sitemaps.org/schemas/sitemap/0.9",
+    "xhtml": "http://www.w3.org/1999/xhtml",
+}
 
 
 def load_urls_from_sitemap() -> list[str]:
@@ -28,12 +31,21 @@ def load_urls_from_sitemap() -> list[str]:
 
     tree = ET.parse(SITEMAP_PATH)
     urls: list[str] = []
+    seen: set[str] = set()
 
     for loc in tree.findall(".//sm:loc", namespaces=SITEMAP_NS):
         if loc.text:
             url = loc.text.strip()
-            if url:
+            if url and url not in seen:
                 urls.append(url)
+                seen.add(url)
+
+    # Include hreflang alternates so new languages are also pinged.
+    for link in tree.findall(".//xhtml:link", namespaces=SITEMAP_NS):
+        href = link.attrib.get("href", "").strip()
+        if href and href not in seen:
+            urls.append(href)
+            seen.add(href)
 
     if not urls:
         print("[IndexNow] No <loc> entries found in sitemap, nothing to ping.")
