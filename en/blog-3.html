@@ -74,7 +74,7 @@
     }
   },
   "datePublished": "2026-02-21",
-  "dateModified": "2026-02-21",
+  "dateModified": "2026-05-09",
   "image": "https://elevenlabs-avis.com/Images/logo-elevenlabs.png",
   "mainEntityOfPage": "https://elevenlabs-avis.com/en/blog-3",
   "inLanguage": "en-US",
@@ -105,57 +105,104 @@
 </header>
 <main class="blog-article">
 <article>
-<p class="article-date">Updated Feb 21, 2026</p>
+<p class="article-date">Updated May 9, 2026</p>
 <h1>Voice cloning: safety, rights and best practices</h1>
-<p class="intro">Voice cloning can save time, but it raises major questions around rights and trust. Here’s a practical checklist to use ElevenLabs (or any AI voice tool) responsibly and ship credible voiceovers.</p>
+<p class="intro">AI voice cloning lets you reproduce a voice from just a few seconds of audio. ElevenLabs leads this market and makes the technology accessible to everyone — creators, businesses, developers. But cloning a voice raises real legal and ethical questions. This guide covers what is allowed, what is prohibited, and how to produce professional-quality voiceovers while staying compliant.</p>
+
 <div aria-label="Advertisement" class="ad-slot">
 <p class="ad-slot__label">Advertisement</p>
 <ins class="adsbygoogle" data-ad-client="ca-pub-9370284647469776" data-ad-format="auto" data-ad-slot="4936307805" data-full-width-responsive="true" style="display:block"></ins>
 </div>
-<h2>1) Consent &amp; rights: the golden rule</h2>
+
+<h2>What exactly is AI voice cloning?</h2>
+<p>Voice cloning trains an AI model on an audio sample to reproduce a person's voice synthetically. ElevenLabs offers two levels:</p>
 <ul>
-<li><strong>Explicit consent.</strong> Never clone a voice without clear, traceable permission.</li>
-<li><strong>No impersonation.</strong> Avoid content that could mislead people about someone’s identity.</li>
-<li><strong>Licensing.</strong> Check what your plan allows (commercial use, distribution, restrictions).</li>
-<li><strong>Transparency.</strong> Disclose synthetic voice use when context requires it (ads, customer support, etc.).</li>
+<li><strong>Instant Voice Cloning</strong>: from 1 minute of audio, available from the Starter plan. Adequate for simple use cases.</li>
+<li><strong>Professional Voice Cloning</strong>: from 30 minutes of clean audio, available on Creator and above. Results nearly indistinguishable from the original voice.</li>
 </ul>
-<h2>2) Quality checklist for credible voiceovers</h2>
+<p>The difference matters: an instant clone may sound slightly artificial on extreme tones, while a professional clone handles emotional nuance with unsettling accuracy.</p>
+
+<h2>The legal framework in 2026</h2>
+<p>Since 2024, the legal landscape around synthetic voices has tightened significantly:</p>
+<ul>
+<li><strong>EU AI Act</strong> (in force 2025): voice cloning systems are classified as <em>limited risk</em>. Obligation to inform users when they interact with AI-generated content.</li>
+<li><strong>Right to one's voice</strong>: in most jurisdictions, a person's voice is a protected attribute. Using someone's voice without permission exposes you to civil liability.</li>
+<li><strong>GDPR</strong>: a voice is biometric data when it identifies a person. Processing requires a valid legal basis, minimisation, and defined retention periods.</li>
+<li><strong>Deepfakes and impersonation</strong>: many countries now explicitly criminalise digital identity theft, including vocal impersonation.</li>
+</ul>
+
+<h2>ElevenLabs' policy on voice cloning</h2>
+<ul>
+<li>You may only clone your own voice or a voice for which you hold written consent from the speaker.</li>
+<li>Cloned voices may not be used to deceive, harass, or spread disinformation.</li>
+<li>ElevenLabs embeds an invisible audio watermark in generated files to enable later detection.</li>
+<li>Accounts found to violate these rules may be suspended without notice.</li>
+</ul>
+
+<h2>Consent and rights: the golden rule</h2>
+<ul>
+<li><strong>Explicit, traceable consent.</strong> Never clone a voice without written permission. Specify the intended use: duration, platform, territory.</li>
+<li><strong>Exploitation rights.</strong> Consent must cover all planned uses — YouTube, podcast, advertising, e-learning. A verbal agreement is not sufficient for commercial use.</li>
+<li><strong>Right of withdrawal.</strong> The speaker may revoke consent. Address contractually what happens to already-published files.</li>
+<li><strong>Transparency with your audience.</strong> For advertisements and institutional content, explicitly state that the voice is synthetic.</li>
+</ul>
+
+<h2>Quality checklist for a credible voiceover</h2>
 <ol>
-<li>Write for speech: short sentences, breathing room, punctuation.</li>
-<li>Generate in segments and iterate on problematic parts.</li>
-<li>Fix proper nouns and acronyms (pronunciation).</li>
-<li>Review on multiple outputs (headphones + speakers) before publishing.</li>
+<li><strong>Prepare your source audio.</strong> Record in a quiet environment with a quality microphone. Avoid background noise, cuts, and hesitations.</li>
+<li><strong>Write for the spoken word.</strong> Long sentences with multiple clauses sound unnatural in TTS. Aim for sentences of 15–20 words maximum, using commas to indicate natural pauses.</li>
+<li><strong>Generate in segments.</strong> Don't submit 2,000-word texts at once. Split by paragraph and regenerate unsatisfactory passages.</li>
+<li><strong>Fix phonetics.</strong> Proper nouns, acronyms, and foreign words are often mispronounced. Use ElevenLabs' SSML tags to force correct pronunciation.</li>
+<li><strong>Adjust Stability and Clarity.</strong> The Stability slider controls emotional variability. Between 50 and 70% suits most professional voiceovers.</li>
+<li><strong>Listen on multiple devices.</strong> Headphones, speakers, smartphone — each reveals different flaws. Validate on all three before publishing.</li>
 </ol>
-<h2>3) Privacy basics (for teams)</h2>
+
+<h2>GDPR for businesses</h2>
 <ul>
-<li>Minimize data sent to the platform (avoid sensitive information in scripts).</li>
-<li>Document access to accounts, API keys and exported audio files.</li>
-<li>If you clone a voice, keep proof of consent.</li>
+<li><strong>Legal basis.</strong> Processing biometric voice data requires explicit consent (GDPR Article 9) or a clearly documented legitimate interest.</li>
+<li><strong>Records of processing.</strong> Include voice cloning in your GDPR processing register with retention periods and recipients.</li>
+<li><strong>Data minimisation.</strong> Don't send scripts containing personal data (customer names, order numbers…) to the API.</li>
+<li><strong>Access management.</strong> Document who has access to API keys, cloned voices, and audio exports. Revoke access from former employees immediately.</li>
 </ul>
-<h2>4) Keep a simple consent record (template)</h2>
-<p><em>Not legal advice.</em> If you use voice cloning, keep a short “consent record” you can reference internally:</p>
-<ul>
-<li><strong>Who:</strong> voice owner name + contact.</li>
-<li><strong>Scope:</strong> allowed uses (channels, languages, formats).</li>
-<li><strong>Duration:</strong> start/end date + how to revoke consent.</li>
-<li><strong>Disclosure:</strong> when you must label synthetic audio.</li>
-<li><strong>Storage:</strong> where samples/models are stored + who has access.</li>
-</ul>
-<h2>5) Pre-publish checklist</h2>
-<ol>
-<li>Consent proof is stored and accessible.</li>
-<li>The output is not misleading (no impersonation, no false endorsement).</li>
-<li>Audio levels are consistent (no clipping, minimal background noise).</li>
-<li>Subtitles match the final audio and contain no sensitive information.</li>
-</ol>
+
+<h2>Use cases: permitted or not?</h2>
+<table>
+<thead><tr><th>Use case</th><th>Status</th><th>Condition</th></tr></thead>
+<tbody>
+<tr><td>Voiceover for your own YouTube channel</td><td>Permitted</td><td>Own voice or written consent</td></tr>
+<tr><td>E-learning content with your voice</td><td>Permitted</td><td>Commercial use depends on plan</td></tr>
+<tr><td>Dubbing a video into multiple languages</td><td>Permitted</td><td>Written consent from original speaker</td></tr>
+<tr><td>Cloning a celebrity's voice</td><td>Prohibited</td><td>Even for parody or private use</td></tr>
+<tr><td>Impersonating a colleague's voice</td><td>Prohibited</td><td>Illegal, criminal penalties possible</td></tr>
+<tr><td>Synthetic voice in advertising without disclosure</td><td>Risky</td><td>Transparency obligation under AI Act 2025</td></tr>
+</tbody>
+</table>
+
 <h2>FAQ</h2>
-<ul>
-<li><strong>Can I clone someone else’s voice?</strong> Only with explicit permission. Without consent, don’t do it.</li>
-<li><strong>Should I disclose AI voice use?</strong> In many contexts (ads, support), it’s recommended for trust.</li>
-<li><strong>How do I avoid a “robotic” result?</strong> Improve the script, segment it, and tweak punctuation/pacing before export.</li>
-</ul>
-<p class="cta"><a href="https://try.elevenlabs.io/q4qifzaxhkwg" rel="sponsored noopener noreferrer" target="_blank">Try ElevenLabs</a></p>
-<p class="disclaimer">Disclosure: affiliate links may earn us a commission at no extra cost to you.</p>
+<div class="faq-item">
+<h3>Can I clone someone else's voice without their consent?</h3>
+<p>No. Even for personal or technical demonstration purposes, cloning someone's voice without consent is an invasion of privacy in most jurisdictions. Penalties can include significant civil fines and criminal charges for identity theft.</p>
+</div>
+<div class="faq-item">
+<h3>Do I need to disclose that a voice is AI-generated?</h3>
+<p>For advertisements and content likely to mislead: yes — mandatory under the EU AI Act (August 2025). For podcasts or e-learning content, it is strongly recommended for trust reasons, but not yet legally required outside advertising contexts.</p>
+</div>
+<div class="faq-item">
+<h3>How do I avoid a "robotic" sound with ElevenLabs?</h3>
+<p>Work on the script (short sentences, careful punctuation), set Stability between 50–70%, and generate in segments. The Multilingual v2 and Turbo v2.5 models currently deliver the best naturalness.</p>
+</div>
+<div class="faq-item">
+<h3>Can ElevenLabs delete my cloned voice if I cancel?</h3>
+<p>Yes. Upon account cancellation or suspension, ElevenLabs deletes associated cloned voices. Export important audio files before making any changes to your subscription.</p>
+</div>
+<div class="faq-item">
+<h3>What is the difference between Instant and Professional Voice Cloning?</h3>
+<p>Instant Cloning (1 min of audio) is quick but less faithful on strong emotions. Professional Cloning (30+ min) reproduces nuances, intonation, and timbre with high accuracy. For regular professional use, the time investment in Professional Cloning is worthwhile.</p>
+</div>
+
+<p class="cta"><a href="https://try.elevenlabs.io/q4qifzaxhkwg" rel="sponsored noopener noreferrer" target="_blank">Try ElevenLabs for free</a></p>
+<p>See also: <a href="/en/blog-1">Full ElevenLabs review 2026</a> — <a href="/en/blog-2">ElevenLabs vs competitors: AI voice comparison</a></p>
+<p class="disclaimer">Transparency: some links are affiliate links, at no extra cost to you.</p>
 </article>
 </main>
 <footer>
