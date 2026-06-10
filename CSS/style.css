@@ -871,6 +871,28 @@ article blockquote::before {
   font-family: serif;
 }
 
+.field-note {
+  margin: 2rem 0;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid rgba(108, 71, 255, 0.22);
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(108, 71, 255, 0.06), rgba(0, 196, 204, 0.06));
+  box-shadow: var(--shadow-sm);
+}
+
+.field-note strong {
+  display: block;
+  color: var(--primary);
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.field-note p {
+  margin: 0;
+  color: var(--dark);
+}
+
 /* Encarts publicitaires (AdSense) */
 .ad-slot {
   display: none;
