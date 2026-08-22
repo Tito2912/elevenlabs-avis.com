@@ -244,6 +244,30 @@
     <priority>0.7</priority>
 </url>
 
+  <url>
+    <loc>https://elevenlabs-avis.com/de/legal-notice</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/legal-notice"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/legal-notice"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://elevenlabs-avis.com/es/legal-notice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/mentions-legales"/>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+</url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/de/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://elevenlabs-avis.com/es/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/politique-de-confidentialite"/>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+</url>
+
   <!-- Pages ES -->
   <url>
     <loc>https://elevenlabs-avis.com/es/</loc>
@@ -303,6 +327,30 @@
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+</url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/es/legal-notice</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://elevenlabs-avis.com/es/legal-notice"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/mentions-legales"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/legal-notice"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/legal-notice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/mentions-legales"/>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+</url>
+
+  <url>
+    <loc>https://elevenlabs-avis.com/es/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://elevenlabs-avis.com/es/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/politique-de-confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/politique-de-confidentialite"/>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
 </url>
 
 </urlset>
