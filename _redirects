@@ -37,9 +37,6 @@ https://www.elevenlabs-avis.com/*   https://elevenlabs-avis.com/:splat   301!
 /Images/*   /Images/:splat   200
 /assets/*   /assets/:splat   200
 
-# --- Test temporaire correcteur SEO (a retirer) ---
-/logo-old.png   /Images/logo-elevenlabs.png   301!
-
 # --- (Facultatif) redirections anciennes pages --- 
 # /old-blog        /blog.html   301
 # /vieille-page    /            301
