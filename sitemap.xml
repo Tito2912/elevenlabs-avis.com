@@ -90,7 +90,7 @@
 	    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/mentions-legales"/>
 	  
 	    <xhtml:link rel="alternate" hreflang="es" href="https://elevenlabs-avis.com/es/legal-notice"/>
-	    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/legal-notice"/>
+	    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/legal-notice/"/>
 </url>
 
 	  <url>
@@ -103,7 +103,7 @@
 	    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/mentions-legales"/>
 	  
 	    <xhtml:link rel="alternate" hreflang="es" href="https://elevenlabs-avis.com/es/legal-notice"/>
-	    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/legal-notice"/>
+	    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/legal-notice/"/>
 </url>
 
 	  <url>
@@ -245,8 +245,8 @@
 </url>
 
   <url>
-    <loc>https://elevenlabs-avis.com/de/legal-notice</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/legal-notice"/>
+    <loc>https://elevenlabs-avis.com/de/legal-notice/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/legal-notice/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/legal-notice"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://elevenlabs-avis.com/es/legal-notice"/>
@@ -334,7 +334,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://elevenlabs-avis.com/es/legal-notice"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://elevenlabs-avis.com/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elevenlabs-avis.com/en/legal-notice"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/legal-notice"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://elevenlabs-avis.com/de/legal-notice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://elevenlabs-avis.com/mentions-legales"/>
     <lastmod>2026-02-08</lastmod>
     <changefreq>yearly</changefreq>
